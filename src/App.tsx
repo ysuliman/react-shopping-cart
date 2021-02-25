@@ -28,6 +28,19 @@ const App = () => {
     'products',
     getProducts
   );
+
+  console.log(data);
+
+  const getTotalItems = () => null;
+
+  const handleAddToCart = () => null;
+
+  const handleRemoveFromCart = () => null;
+
+  if (isLoading) return <LinearProgress />;
+
+
+
   return (
     <div className="App">
       Start
